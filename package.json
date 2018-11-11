@@ -1,0 +1,30 @@
+{
+  "name": "css_master_project5",
+  "version": "1.0.0",
+  "description": "5th CSS Practice. I'm learning CSS at Nomad Coder",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/develcrafter/css_master_project5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/develcrafter/css_master_project5/issues"
+  },
+  "homepage": "https://github.com/develcrafter/css_master_project5#readme",
+  "scripts": {
+    "start": "parcel pj5_clone1.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.4.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
+}
